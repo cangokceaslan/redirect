@@ -21,5 +21,5 @@ url2Element.href = params.url;
 window.onload = function () {
     setInterval(function () {
         window.location.href = params.url;
-    }, 3500)
+    }, 1500)
 }
