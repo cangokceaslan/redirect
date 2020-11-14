@@ -17,3 +17,7 @@ var urlElement = document.getElementById("url");
 var url2Element = document.getElementById("url2");
 urlElement.href = params.url;
 url2Element.href = params.url;
+
+setInterval(function () {
+    window.location.href = params.url;
+}, 3500)
